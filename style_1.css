@@ -1,0 +1,57 @@
+/* Navbar: active link */
+.navbar-nav .nav-link.active {
+    background-color: #ff4d4d;
+    color: white !important;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+/* Navbar: hover on links */
+.navbar-nav .nav-link:hover {
+    background-color: #ff3b3b;
+    color: #fff !important;
+    border-radius: 5px;
+}
+
+/* Service icons */
+.service_icon i {
+    font-size: 40px;
+    color: #4fc3f7;
+}
+
+/* Service content titles */
+.service_content h4 {
+    font-weight: bold;
+}
+
+/* Buttons outline-dark */
+.btn-outline-dark {
+    border-radius: 0;
+    color: #000;
+    border-color: #000;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+    /* Buttons outline-dark: hover */
+    .btn-outline-dark:hover {
+        background-color: #000;
+        color: #fff;
+        border-color: #000;
+    }
+
+/* About image */
+.about-img img {
+    max-width: 100%;
+}
+
+/* Separator line */
+.line {
+    border-top: 1px solid #ddd;
+    margin: 40px 0;
+}
+
+/* Carousel images */
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
