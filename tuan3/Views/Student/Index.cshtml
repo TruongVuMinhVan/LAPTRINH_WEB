@@ -1,0 +1,29 @@
+﻿@model tuan3.Models.StudentModel
+
+<h2>Đăng ký chuyên ngành</h2>
+
+<form asp-action="ShowKQ" method="post">
+    <div>
+        <label>MSSV:</label>
+        <input asp-for="Id" required />
+    </div>
+    <div>
+        <label>Họ tên:</label>
+        <input asp-for="Name" required />
+    </div>
+    <div>
+        <label>Điểm:</label>
+        <input asp-for="Score" required />
+    </div>
+    <div>
+        <label>Chuyên ngành:</label>
+        <select asp-for="Major">
+            <option value="CNPM">CNPM</option>
+            <option value="HTTT">HTTT</option>
+            <option value="ANM">ANM</option>
+            <option value="TTNT">TTNT</option>
+            <option value="MMT">MMT</option>
+        </select>
+    </div>
+    <button type="submit">Đăng ký</button>
+</form>

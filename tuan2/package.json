@@ -1,0 +1,16 @@
+{
+  "name": "bootstrap-project",
+  "version": "1.0.0",
+  "description": "Dự án sử dụng Bootstrap 5.3.6",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx live-server --open=index.html"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.6"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
+  
