@@ -1,0 +1,569 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\bt4.bundle.scp.css",
+      "PackagePath": "staticwebassets\\bt4.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\css\\ionicons.min.css",
+      "PackagePath": "staticwebassets\\css\\ionicons.min.css"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\css\\plugins.css",
+      "PackagePath": "staticwebassets\\css\\plugins.css"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\fonts\\fontawesome-webfont3e6e.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont3e6e.eot"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\fonts\\fontawesome-webfont3e6e.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont3e6e.svg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\fonts\\fontawesome-webfont3e6e.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont3e6e.ttf"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\fonts\\fontawesome-webfont3e6e.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont3e6e.woff"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\fonts\\fontawesome-webfont3e6e.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont3e6e.woff2"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\fonts\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\fonts\\ionicons28b5.eot",
+      "PackagePath": "staticwebassets\\fonts\\ionicons28b5.eot"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\fonts\\ionicons28b5.svg",
+      "PackagePath": "staticwebassets\\fonts\\ionicons28b5.svg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\fonts\\ionicons28b5.ttf",
+      "PackagePath": "staticwebassets\\fonts\\ionicons28b5.ttf"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\fonts\\ionicons28b5.woff",
+      "PackagePath": "staticwebassets\\fonts\\ionicons28b5.woff"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\about.jpg",
+      "PackagePath": "staticwebassets\\img\\about.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\banner\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\1.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\banner\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\2.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\bg\\footer-bg.png",
+      "PackagePath": "staticwebassets\\img\\bg\\footer-bg.png"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\bg\\page-banner.jpg",
+      "PackagePath": "staticwebassets\\img\\bg\\page-banner.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\bg\\testimonial.png",
+      "PackagePath": "staticwebassets\\img\\bg\\testimonial.png"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\blog\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\1.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\blog\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\2.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\blog\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\3.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\blog\\blog-gallery-1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-gallery-1.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\blog\\blog-gallery-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-gallery-2.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\blog\\blog-gallery-3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\blog-gallery-3.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\blog\\details.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\details.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\blog\\sidebar-post-1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\sidebar-post-1.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\blog\\sidebar-post-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\sidebar-post-2.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\blog\\sidebar-post-3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\sidebar-post-3.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\cart\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\cart\\1.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\cart\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\cart\\2.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\client\\1.png",
+      "PackagePath": "staticwebassets\\img\\client\\1.png"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\client\\2.png",
+      "PackagePath": "staticwebassets\\img\\client\\2.png"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\client\\3.png",
+      "PackagePath": "staticwebassets\\img\\client\\3.png"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\client\\4.png",
+      "PackagePath": "staticwebassets\\img\\client\\4.png"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\client\\5.png",
+      "PackagePath": "staticwebassets\\img\\client\\5.png"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\client\\6.png",
+      "PackagePath": "staticwebassets\\img\\client\\6.png"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\comment\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\comment\\1.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\comment\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\comment\\2.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\comment\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\comment\\3.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\favicon.ico",
+      "PackagePath": "staticwebassets\\img\\favicon.ico"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\footer-logo.png",
+      "PackagePath": "staticwebassets\\img\\footer-logo.png"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\hero\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\hero\\1.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\hero\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\hero\\2.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\icon\\select-arrow-down.png",
+      "PackagePath": "staticwebassets\\img\\icon\\select-arrow-down.png"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\product-details\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\product-details\\1.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\product-details\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\product-details\\2.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\product-details\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\product-details\\3.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\product-details\\4.jpg",
+      "PackagePath": "staticwebassets\\img\\product-details\\4.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\product-details\\thumb-1.jpg",
+      "PackagePath": "staticwebassets\\img\\product-details\\thumb-1.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\product-details\\thumb-2.jpg",
+      "PackagePath": "staticwebassets\\img\\product-details\\thumb-2.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\product-details\\thumb-3.jpg",
+      "PackagePath": "staticwebassets\\img\\product-details\\thumb-3.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\product-details\\thumb-4.jpg",
+      "PackagePath": "staticwebassets\\img\\product-details\\thumb-4.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\product\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\1.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\product\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\2.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\product\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\3.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\product\\4.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\4.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\product\\5.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\5.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\product\\6.jpg",
+      "PackagePath": "staticwebassets\\img\\product\\6.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\section-title-bg.png",
+      "PackagePath": "staticwebassets\\img\\section-title-bg.png"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\team\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\1.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\team\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\2.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\team\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\3.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\team\\4.jpg",
+      "PackagePath": "staticwebassets\\img\\team\\4.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\img\\testimonial\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial\\1.jpg"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\js\\ajax-mail.js",
+      "PackagePath": "staticwebassets\\js\\ajax-mail.js"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\js\\map.js",
+      "PackagePath": "staticwebassets\\js\\map.js"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\js\\plugins.js"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\js\\vendor\\jquery-1.12.0.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\jquery-1.12.0.min.js"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\js\\vendor\\modernizr-2.8.3.min.js",
+      "PackagePath": "staticwebassets\\js\\vendor\\modernizr-2.8.3.min.js"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\STUDY\\LAPTRINHWEB\\tuan4\\bt4\\wwwroot\\style.css",
+      "PackagePath": "staticwebassets\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.bt4.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.bt4.props",
+      "PackagePath": "build\\bt4.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.bt4.props",
+      "PackagePath": "buildMultiTargeting\\bt4.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.bt4.props",
+      "PackagePath": "buildTransitive\\bt4.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
