@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Book>
+
+@{
+    ViewData["Title"] = "Danh sách sách";
+}
+
+<h2 class="mb-3">Danh sách sách</h2>
+
+<div class="mb-3">
+    <a asp-action="Create" class="btn btn-primary">Thêm sách mới</a>
+</div>
+
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+        @foreach (var item in Model)
+        {
+            <div class="col">
+                <div class="card h-100">
+                    @if (!string.IsNullOrEmpty(item.Image))
+                    {
+                        <img src="~/ImageBooks/@item.Image" class="card-img-top img-thumbnail book-image" alt="@item.Title">
+
+                    }
+                    else
+                    {
+                        <div class="card-img-top text-center py-4 bg-light">
+                            <span>Không có ảnh</span>
+                        </div>
+                    }
+
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">@item.Title</h5>
+                        <p class="card-text"><strong>Tác giả:</strong> @item.Author</p>
+                        <p class="card-text"><strong>Giá:</strong> @item.Price?.ToString("N0") VNĐ</p>
+                        <p class="card-text"><strong>Chủ đề:</strong> @item.Category?.CategoryName</p>
+                        <div class="mt-auto text-center">
+                            <a asp-action="Edit" asp-route-id="@item.BookId" class="btn btn-warning btn-sm">Sửa</a>
+                            <a asp-action="Details" asp-route-id="@item.BookId" class="btn btn-info btn-sm">Chi tiết</a>
+                            <a asp-action="Delete" asp-route-id="@item.BookId" class="btn btn-danger btn-sm">Xóa</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

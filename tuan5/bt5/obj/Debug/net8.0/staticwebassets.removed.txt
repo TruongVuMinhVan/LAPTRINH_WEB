@@ -1,0 +1,9 @@
+D:\STUDY\LAPTRINHWEB\tuan5\wwwroot\ImageBooks\5ngonngutinhyeu.jpg
+D:\STUDY\LAPTRINHWEB\tuan5\wwwroot\ImageBooks\aspnetcoremvc.jpg
+D:\STUDY\LAPTRINHWEB\tuan5\wwwroot\ImageBooks\csharpcanban.jpg
+D:\STUDY\LAPTRINHWEB\tuan5\wwwroot\ImageBooks\dayconlamgiau.jpg
+D:\STUDY\LAPTRINHWEB\tuan5\wwwroot\ImageBooks\image1.jpg
+D:\STUDY\LAPTRINHWEB\tuan5\wwwroot\ImageBooks\image3.jpg
+D:\STUDY\LAPTRINHWEB\tuan5\wwwroot\ImageBooks\tohoclaptrinh.jpg
+D:\STUDY\LAPTRINHWEB\tuan5\wwwroot\ImageBooks\vutrutrongvo.jpg
+D:\STUDY\LAPTRINHWEB\tuan5\wwwroot\ImageBooks\Đắc-nhân-tâm-3.jpg
