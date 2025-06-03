@@ -16,10 +16,19 @@ namespace buoi5.Controllers
             _environment = environment;
         }
 
-
-        public async Task<IActionResult> Index()
+        // GET: Books
+        public async Task<IActionResult> Index(string searchString)
         {
-            var books = _context.Books.Include(b => b.Category);
+            var books = from b in _context.Books.Include(b => b.Category)
+                        select b;
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                books = books.Where(b => b.Title.Contains(searchString));
+            }
+
+            ViewData["CurrentFilter"] = searchString;
+
             return View(await books.ToListAsync());
         }
 
@@ -36,7 +45,6 @@ namespace buoi5.Controllers
         {
             if (ModelState.IsValid)
             {
-                // Xử lý ảnh
                 if (ImageFile != null && ImageFile.Length > 0)
                 {
                     var fileName = Path.GetFileName(ImageFile.FileName);
@@ -56,6 +64,8 @@ namespace buoi5.Controllers
             ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryName", book.CategoryId);
             return View(book);
         }
+
+        // GET: Books/Edit/5
         public async Task<IActionResult> Edit(string id)
         {
             if (id == null) return NotFound();
@@ -66,6 +76,7 @@ namespace buoi5.Controllers
             ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryName", book.CategoryId);
             return View(book);
         }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(string id, Book book, IFormFile? ImageFile)
@@ -108,7 +119,9 @@ namespace buoi5.Controllers
         {
             if (id == null) return NotFound();
 
-            var book = await _context.Books.Include(b => b.Category).FirstOrDefaultAsync(m => m.BookId == id);
+            var book = await _context.Books
+                .Include(b => b.Category)
+                .FirstOrDefaultAsync(m => m.BookId == id);
             if (book == null) return NotFound();
 
             return View(book);
@@ -119,7 +132,9 @@ namespace buoi5.Controllers
         {
             if (id == null) return NotFound();
 
-            var book = await _context.Books.Include(b => b.Category).FirstOrDefaultAsync(m => m.BookId == id);
+            var book = await _context.Books
+                .Include(b => b.Category)
+                .FirstOrDefaultAsync(m => m.BookId == id);
             if (book == null) return NotFound();
 
             return View(book);
@@ -140,5 +155,4 @@ namespace buoi5.Controllers
             return RedirectToAction(nameof(Index));
         }
     }
-
 }

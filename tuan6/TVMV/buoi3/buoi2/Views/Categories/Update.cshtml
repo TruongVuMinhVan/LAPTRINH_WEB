@@ -1,0 +1,44 @@
+﻿@model buoi2.Models.Category
+
+@{
+    ViewData["Title"] = "Cập nhật danh mục";
+}
+
+<h2 class="mb-4"><i class="bi bi-pencil-square"></i> Cập nhật danh mục</h2>
+
+<form asp-action="Update" method="post" class="row g-3 needs-validation" novalidate>
+    <input type="hidden" asp-for="Id" />
+    <div class="col-md-6">
+        <label asp-for="Name" class="form-label">Tên danh mục</label>
+        <input asp-for="Name" class="form-control" required />
+        <div class="invalid-feedback">
+            Vui lòng nhập tên danh mục.
+        </div>
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="col-12 mt-3">
+        <button type="submit" class="btn btn-primary">
+            <i class="bi bi-save2-fill"></i> Lưu
+        </button>
+        <a asp-action="Index" class="btn btn-secondary ms-2">Hủy</a>
+    </div>
+</form>
+
+@section Scripts {
+    <script>
+        (function () {
+            'use strict';
+            var forms = document.querySelectorAll('.needs-validation');
+            Array.prototype.slice.call(forms).forEach(function (form) {
+                form.addEventListener('submit', function (event) {
+                    if (!form.checkValidity()) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        })();
+    </script>
+}
