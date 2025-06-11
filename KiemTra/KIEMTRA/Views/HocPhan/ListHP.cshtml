@@ -1,0 +1,44 @@
+﻿@model IEnumerable<KIEMTRA.Models.HocPhanViewModel>
+@{
+    ViewData["Title"] = "Danh sách Học Phần";
+    Layout = "_Layout";
+}
+<div class="container mt-4">
+    <h2 class="mb-3">@ViewData["Title"]</h2>
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover align-middle">
+            <thead class="table-light">
+                <tr>
+                    <th>Mã HP</th>
+                    <th>Tên HP</th>
+                    <th>Số TC</th>
+                    <th>Hành Động</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var hp in Model)
+                {
+                    <tr>
+                        <td>@hp.MaHP</td>
+                        <td>@hp.TenHP</td>
+                        <td>@hp.SoTinChi</td>
+                        <td>
+                            @if (hp.DaDangKy)
+                            {
+                                <span class="badge bg-secondary">Đã ĐK</span>
+                            }
+                            else
+                            {
+                                <form asp-action="DangKy" method="post" class="d-inline">
+                                    @Html.AntiForgeryToken()
+                                    <input type="hidden" name="maHP" value="@hp.MaHP" />
+                                    <button type="submit" class="btn btn-sm btn-success">Đăng Kí</button>
+                                </form>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

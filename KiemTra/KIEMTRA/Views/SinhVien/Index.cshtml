@@ -1,0 +1,60 @@
+﻿@model IEnumerable<KIEMTRA.Models.SinhVien>
+@{
+    ViewData["Title"] = "Trang Sinh Viên";
+    Layout = "_Layout";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2>@ViewData["Title"]</h2>
+        <a asp-action="Create" class="btn btn-success">+ Thêm Sinh Viên</a>
+    </div>
+
+    <div class="card shadow-sm">
+        <div class="card-body p-0">
+            <div class="table-responsive">
+                <table class="table table-hover table-bordered mb-0">
+                    <thead class="table-light">
+                        <tr>
+                            <th>MaSV</th>
+                            <th>Họ Tên</th>
+                            <th>Giới Tính</th>
+                            <th>Ngày Sinh</th>
+                            <th>Hình</th>
+                            <th>Ngành</th>
+                            <th>Hành Động</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var sv in Model)
+                        {
+                            <tr>
+                                <td>@sv.MaSV</td>
+                                <td>@sv.HoTen</td>
+                                <td>@sv.GioiTinh</td>
+                                <td>@sv.NgaySinh.ToString("dd/MM/yyyy")</td>
+                                <td>
+                                    <img src="@sv.Hinh" alt="Ảnh SV" class="img-fluid rounded" style="max-height:80px;" />
+                                </td>
+                                <td>@sv.NganhHoc?.TenNganh</td>
+                                <td>
+                                    <div class="btn-group" role="group">
+                                        <a asp-action="Edit" asp-route-id="@sv.MaSV" class="btn btn-sm btn-primary">Sửa</a>
+                                        <a asp-action="Details" asp-route-id="@sv.MaSV" class="btn btn-sm btn-info">Xem</a>
+                                        <a asp-action="Delete" asp-route-id="@sv.MaSV" class="btn btn-sm btn-danger">Xóa</a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

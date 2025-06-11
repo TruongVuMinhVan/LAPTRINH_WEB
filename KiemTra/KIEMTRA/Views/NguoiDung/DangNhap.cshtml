@@ -1,0 +1,56 @@
+﻿@model KIEMTRA.Models.DangNhapViewModel
+@{
+    ViewData["Title"] = "Đăng nhập";
+    Layout = "_Layout";
+}
+
+<div class="d-flex justify-content-center align-items-center min-vh-100">
+    <div class="card shadow-sm w-100" style="max-width: 400px;">
+        <div class="card-header bg-primary text-white text-center">
+            <h4>@ViewData["Title"]</h4>
+        </div>
+        <div class="card-body">
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @if (ViewBag.ThongBao != null)
+            {
+                <div class="alert alert-danger">@ViewBag.ThongBao</div>
+            }
+            <form asp-action="DangNhap" method="post" class="needs-validation" novalidate>
+                @Html.AntiForgeryToken()
+                <div class="mb-3">
+                    <label asp-for="MaSV" class="form-label"></label>
+                    <input asp-for="MaSV" class="form-control" required />
+                    <div class="invalid-feedback">
+                        @Html.ValidationMessageFor(m => m.MaSV)
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="NgaySinh" class="form-label"></label>
+                    <input asp-for="NgaySinh" type="date" class="form-control" required />
+                    <div class="invalid-feedback">
+                        @Html.ValidationMessageFor(m => m.NgaySinh)
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Đăng nhập</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        (() => {
+            'use strict'
+            const forms = document.querySelectorAll('.needs-validation')
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
+                    form.classList.add('was-validated')
+                }, false)
+            })
+        })()
+    </script>
+}

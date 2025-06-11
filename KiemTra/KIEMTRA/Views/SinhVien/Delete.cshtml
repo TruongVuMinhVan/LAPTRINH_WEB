@@ -1,0 +1,15 @@
+﻿@model KIEMTRA.Models.SinhVien
+@{
+    ViewData["Title"] = "Xóa Sinh Viên";
+}
+<h2>@ViewData["Title"]</h2>
+<h4>Bạn có chắc muốn xóa sinh viên này không?</h4>
+<div class="alert alert-danger">
+    <strong>@Model.HoTen</strong> (MaSV: @Model.MaSV)
+</div>
+<form asp-action="Delete" asp-route-id="@Model.MaSV" method="post">
+    @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="MaSV" />
+    <button type="submit" class="btn btn-danger">Xóa</button>
+    <a asp-action="Index" class="btn btn-secondary ms-2">Hủy</a>
+</form>

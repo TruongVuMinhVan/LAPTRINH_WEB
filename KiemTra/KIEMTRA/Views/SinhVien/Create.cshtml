@@ -1,0 +1,112 @@
+﻿@model KIEMTRA.Models.SinhVien
+@using Microsoft.AspNetCore.Mvc.Rendering
+
+@{
+    ViewData["Title"] = "Thêm Sinh Viên";
+    Layout = "_Layout";
+}
+
+<div class="d-flex justify-content-center align-items-center min-vh-100">
+    <div class="card shadow-sm w-100" style="max-width: 600px;">
+        <div class="card-header bg-success text-white text-center">
+            <h4>@ViewData["Title"]</h4>
+        </div>
+        <div class="card-body">
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @if (ViewBag.ModelErrors != null)
+            {
+                <div class="alert alert-danger">
+                    <ul>
+                        @foreach (string err in ViewBag.ModelErrors)
+                        {
+                            <li>@err</li>
+                        }
+                    </ul>
+                </div>
+            }
+            @if (ViewBag.DbError != null)
+            {
+                <div class="alert alert-danger">@ViewBag.DbError</div>
+            }
+
+            <form asp-action="Create" method="post" enctype="multipart/form-data" class="needs-validation" novalidate>
+                @Html.AntiForgeryToken()
+                <input type="hidden" asp-for="Hinh" value="" />
+
+                <div class="mb-3">
+                    <label asp-for="MaSV" class="form-label">Mã SV</label>
+                    <input asp-for="MaSV" class="form-control" required />
+                    <div class="invalid-feedback">
+                        @Html.ValidationMessageFor(m => m.MaSV)
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="HoTen" class="form-label">Họ tên</label>
+                    <input asp-for="HoTen" class="form-control" required />
+                    <div class="invalid-feedback">
+                        @Html.ValidationMessageFor(m => m.HoTen)
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="GioiTinh" class="form-label">Giới tính</label>
+                    <select asp-for="GioiTinh" class="form-select" required>
+                        <option value="">--Chọn--</option>
+                        <option>Nam</option>
+                        <option>Nữ</option>
+                    </select>
+                    <div class="invalid-feedback">
+                        @Html.ValidationMessageFor(m => m.GioiTinh)
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="NgaySinh" class="form-label">Ngày sinh</label>
+                    <input asp-for="NgaySinh" type="date" class="form-control" required />
+                    <div class="invalid-feedback">
+                        @Html.ValidationMessageFor(m => m.NgaySinh)
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Hình ảnh</label>
+                    <input type="file" name="HinhUpload" class="form-control" accept="image/*" />
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="MaNganh" class="form-label">Ngành</label>
+                    <select asp-for="MaNganh" asp-items="ViewBag.NganhList" class="form-select" required>
+                        <option value="">--Chọn--</option>
+                    </select>
+                    <div class="invalid-feedback">
+                        @Html.ValidationMessageFor(m => m.MaNganh)
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-end">
+                    <button type="submit" class="btn btn-success me-2">Lưu</button>
+                    <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        (() => {
+            'use strict';
+            const forms = document.querySelectorAll('.needs-validation');
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        })();
+    </script>
+}

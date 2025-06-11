@@ -1,0 +1,27 @@
+﻿@model KIEMTRA.Models.SinhVien
+@{
+    ViewData["Title"] = "Chi tiết Sinh Viên";
+}
+<h2>@ViewData["Title"]</h2>
+<div class="row">
+    <dl class="row col-md-8">
+        <dt class="col-sm-4">MaSV</dt>
+        <dd class="col-sm-8">@Model.MaSV</dd>
+        <dt class="col-sm-4">HoTen</dt>
+        <dd class="col-sm-8">@Model.HoTen</dd>
+        <dt class="col-sm-4">GioiTinh</dt>
+        <dd class="col-sm-8">@Model.GioiTinh</dd>
+        <dt class="col-sm-4">NgaySinh</dt>
+        <dd class="col-sm-8">@Model.NgaySinh.ToString("dd/MM/yyyy")</dd>
+        <dt class="col-sm-4">Ngành</dt>
+        <dd class="col-sm-8">@Model.NganhHoc?.TenNganh</dd>
+        <dt class="col-sm-4">Hình</dt>
+        <dd class="col-sm-8">
+            <img src="@Model.Hinh" style="max-width:200px;" />
+        </dd>
+    </dl>
+</div>
+<p>
+    <a asp-action="Edit" asp-route-id="@Model.MaSV" class="btn btn-warning">Sửa</a>
+    <a asp-action="Index" class="btn btn-secondary ms-2">Quay về</a>
+</p>
